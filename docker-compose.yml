@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  cyber-threat-platform:
+    build: .
+    container_name: cyber-threat-platform
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
