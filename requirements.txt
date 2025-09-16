@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+motor
+httpx
+pymongo
+scikit-learn
+joblib
+numpy
+scipy
+python-dotenv
+imbalanced-learn
